@@ -1,18 +1,19 @@
-##Data
+Data
 
 The tidy_data.txt data file is a text file which has been cleaned up. 
 
 The first row contains the names of the variables, which are listed and described in the Variables section, and the following rows contain the values of these variables.
 
 
-##Variables
+Variables
 
-#subject
+subject
 - Subject identifier, integer, ranges from 1 to 30.
 
 activity
 
-#Activity identifier, string with 6 possible values:
+
+Activity identifier, string with 6 possible values:
 
 -WALKING: subject was walking
 -WALKING_UPSTAIRS: subject was walking upstairs
@@ -21,7 +22,8 @@ activity
 -STANDING: subject was standing
 -LAYING: subject was laying
 
-##Work
+
+Work
 
 -Merges the training and the test sets to create one data set.
 -Extracts only the measurements on the mean and standard deviation for each measurement.
